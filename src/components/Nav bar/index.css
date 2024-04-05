@@ -1,14 +1,7 @@
-nav{
-    background-color: yellow;
+.navbar{
+    background-color: gray;
     padding: 10px;
-}
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto;
+    color: white;
 }
 
 .container ul{
@@ -18,4 +11,8 @@ nav{
 .container li{
     list-style-type: none;
     margin: 0 20px;
+}
+
+.pointer{
+    cursor: pointer;
 }
